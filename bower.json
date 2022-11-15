@@ -1,0 +1,26 @@
+{
+  "name": "mvc",
+  "homepage": "https://github.com/zahovicS/simple-mvc",
+  "authors": [
+    "zahovic Saravia Suarez <zv.elrevelde@gmail.com>"
+  ],
+  "description": "Punto de venta con MVC",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "bowerMove": {
+    "jquery": {
+      "dist/css/*.min.css": "assets/css/",
+      "fonts": "assets/fonts/"
+    }
+  }
+}
