@@ -5,7 +5,7 @@ Class View {
         $engine = [
             "loader" => new Mustache_Loader_FilesystemLoader(dirname(__DIR__, 2) . "/resources/views/"),
             "cache" => dirname(__FILE__,3)."/system/tmp/cache/mustache/",
-            // "partials_loader" => new Mustache_Loader_FilesystemLoader(dirname(__FILE__,2).'/resources/views/layouts/'),
+            "partials_loader" => new Mustache_Loader_FilesystemLoader(dirname(__FILE__,3) . '/resources/views/layouts/'),
             'escape' => function($value) {
                 return htmlspecialchars($value, ENT_COMPAT, 'UTF-8');
             },

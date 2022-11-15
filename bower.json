@@ -15,12 +15,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.6.0"
   },
   "bowerMove": {
-    "jquery": {
-      "dist/css/*.min.css": "assets/css/",
-      "fonts": "assets/fonts/"
-    }
+    
   }
 }

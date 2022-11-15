@@ -1,1 +1,19 @@
-{{ text }}
+<!-- article.mustache -->
+{{% BLOCKS }}
+{{< base }}
+{{$ title }}El pepe{{/ title }}
+
+{{$ stylesheets }}
+      <link rel="stylesheet" href="/assets/css/default.css">
+      <link rel="stylesheet" href="/assets/css/article.css">
+{{/ stylesheets }}
+
+{{$ content }}
+<p>{{ article.body }}</p>
+{{/ content }}
+
+{{$ scripts }}
+      <script src="/assets/js/default.js"></script>
+      <script src="/assets/js/article.js"></script>
+{{/ scripts }}
+{{/ base }}
