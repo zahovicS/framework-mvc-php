@@ -4,6 +4,7 @@ class User extends Model
     public function __construct()
     {
         $this->table = "usuario";
+        $this->softdelete = false;
         parent::__construct();
     }
     public function addUser(array $data)

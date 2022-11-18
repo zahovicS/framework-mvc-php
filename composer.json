@@ -3,6 +3,7 @@
     "giansalex/peru-consult": "^4.5",
     "dompdf/dompdf": "^2.0",
     "luecano/numero-a-letras": "^3.0",
-    "mustache/mustache": "^2.14"
+    "mustache/mustache": "^2.14",
+    "symfony/var-dumper": "^5.4"
   }
 }

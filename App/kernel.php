@@ -27,6 +27,7 @@ $router->post('/Login/logout', Login::class . "::logout");
 #END BUSINESS
 #DASHBOARD
 $router->get('/dashboard', Dashboard::class . "::index");
+$router->get('/test', Dashboard::class . "::test");
 #END DASHBOARD
 $router->addNotFoundHandler(function () use ($web) {
     $web->_404();
